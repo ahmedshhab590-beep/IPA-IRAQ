@@ -4,7 +4,19 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "IPA HUB | iOS App Store",
-  description: "Discover iOS apps and games with IPA HUB.",
+  description:
+    "IPA HUB - Discover iOS apps and games. Founded by Ahmed Al-Mousawi.",
+  applicationName: "IPA HUB",
+  authors: [{ name: "Ahmed Al-Mousawi" }],
+  creator: "Ahmed Al-Mousawi",
+  publisher: "IPA HUB",
+  keywords: [
+    "IPA HUB",
+    "iOS Apps",
+    "iPhone Games",
+    "IPA Downloads",
+    "Ahmed Al-Mousawi"
+  ],
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
@@ -25,3 +37,4 @@ export default function RootLayout({
     </html>
   );
 }
+
