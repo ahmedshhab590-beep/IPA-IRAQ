@@ -73,12 +73,36 @@ export default function Home() {
         borderBottom: "1px solid #252438",
         paddingBottom: 20
       }}>
-        <div style={{display:"flex",alignItems:"center",gap:10}}>
-          <div style={{
-            width:42,height:42,borderRadius:13,
-            background:"linear-gradient(135deg,#9c65ff,#5432bd)",
-            display:"grid",placeItems:"center",fontSize:23
-          }}>✦</div>
+        <div style={{display:"flex",alignItems:"center",gap:10}}>      
+       
+<div style={{
+  width: 52,
+  height: 52,
+  borderRadius: 16,
+  background: "linear-gradient(145deg,#1b1035,#080810)",
+  border: "1.5px solid #9b55ff",
+  boxShadow: "0 0 18px #7435d966",
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  justifyContent: "center",
+  lineHeight: 1
+}}>
+  <strong style={{
+    fontSize: 19,
+    fontStyle: "italic",
+    color: "#ffffff",
+    letterSpacing: -1
+  }}>IPA</strong>
+  <span style={{
+    fontSize: 9,
+    color: "#bd83ff",
+    fontWeight: "bold",
+    letterSpacing: 2,
+    marginTop: 3
+  }}>HUB</span>
+</div>
+   
           <strong style={{fontSize:22,letterSpacing:1}}>IPA <span style={{color:"#a77aff"}}>HUB</span></strong>
         </div>
         <button style={{
