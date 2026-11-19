@@ -200,17 +200,49 @@ export default function Home() {
             No apps found.
           </p>
         )}
-      </section>
+      </
+ </section>
+<footer style={{
+  maxWidth: 1050,
+  margin: "65px auto 0",
+  borderTop: "1px solid #29263a",
+  padding: "30px 0",
+  textAlign: "center",
+  color: "#77748c",
+  fontSize: 12
+}}>
+  <strong style={{
+    fontSize: 18,
+    letterSpacing: 1,
+    color: "#ffffff"
+  }}>
+    IPA <span style={{color:"#a77aff"}}>HUB</span>
+  </strong>
 
-      <footer style={{
-        maxWidth:1050,margin:"65px auto 0",
-        borderTop:"1px solid #29263a",
-        padding:"25px 0",textAlign:"center",
-        color:"#77748c",fontSize:12
-      }}>
-        © 2026 IPA HUB. All rights reserved.
-        <p>Your Apps. Your Store. Your Choice.</p>
-      </footer>
-    </main>
-  );
+  <p style={{marginTop:15}}>
+    © 2026 IPA HUB. All rights reserved.
+  </p>
+
+  <p>Your Apps. Your Store. Your Choice.</p>
+
+  <div style={{
+    marginTop: 22,
+    paddingTop: 18,
+    borderTop: "1px solid #29263a"
+  }}>
+    <p style={{color:"#bda4f5",fontSize:13}}>
+      Founded & Owned by
+    </p>
+    <strong style={{color:"#ffffff",fontSize:15}}>
+      Ahmed Al-Mousawi
+    </strong>
+    <p style={{color:"#77748c",marginTop:6}}>
+      المؤسس والمالك — أحمد الموسوي
+    </p>
+  </div>
+</footer>
+</main>
+);
 }
+
+    
